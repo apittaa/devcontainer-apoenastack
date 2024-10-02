@@ -4,12 +4,7 @@ SET s3_url_style='path';
 SET s3_endpoint='localhost:9000';
 SET s3_use_ssl='false';
 
-CREATE SECRET s3_secret (
-    TYPE S3,
-    KEY_ID 'V9FP0Kk0wCyBZ8xUQQkTJH',
-    SECRET 'iFy6Q8kRLJW58foza0kcCEXcQkiwo09u8dtaFZhuw4J',
-    REGION 'us-east-1'
-);
+
 
 SELECT
     *
